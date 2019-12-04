@@ -39,6 +39,10 @@ class MyClient(discord.Client):
 
         if message.content.startswith('bonk dropkick'):
             await message.channel.send('Je Dropkicked je ma, rip {0.author.mention}'.format(message))
+            
+        if message.content.startswith('bonk pussypic'):
+            await message.channel.send('https://tenor.com/view/bon-voyage-batman-gif-5499100 {0.author.mention}'.format(message))
+    
 
 client = MyClient()
 client.run('NjMxNDA4MTM0NjM5OTc2NDQ4.XbAXXw.EF7Pa9PI2C9pV5Qv8VYZGCxlZSA')
